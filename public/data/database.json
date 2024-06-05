@@ -1,0 +1,34 @@
+{
+  "dates": [
+    {
+      "id": "447b",
+      "name": "Simón",
+      "email": "simon@gmail.com",
+      "password": "sim123"
+    },
+    {
+      "id": "3cbd",
+      "name": "Valentina",
+      "email": "valentina@gmail.com",
+      "password": "val123"
+    },
+    {
+      "name": "Pocoyo",
+      "email": "ijnbtr@gmail.com",
+      "password": "123",
+      "id": "bd40"
+    },
+    {
+      "name": "Eva Torrez",
+      "email": "eva@gmail.com",
+      "password": "123",
+      "id": "3c90"
+    },
+    {
+      "id": "acbf",
+      "name": "Camila",
+      "email": "camila@gmail.com",
+      "password": "cam123"
+    }
+  ]
+}

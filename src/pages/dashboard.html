@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+
+        <!-- SECTION TO FORM -->
+    <section>
+        <article>
+            <button type="button" class="btn btn-warning" id="btn-logout">logout</button>
+            <form>
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Nombre Completo:" id="complete_name-user">
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Correo Electrónico:" id="email-user">
+                </div>
+                <div class="mb-3">
+                    <input type="password" class="form-control" placeholder="Contraseña:" id="password-user">
+                </div>
+                <div class="mb-3">
+                    <input type="password" class="form-control" placeholder="Confirmar Contraseña:"
+                        id="confirm_password-user">
+                </div>
+                <button type="submit" class="btn btn-primary">Registrar</button>
+            </form>
+        </article>
+    </section>
+
+    <!-- SECTION TO SHOW USERS -->
+    <section>
+        <article>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nombre Completo</th>
+                        <th scope="col">Correo Electrónico</th>
+                        <th scope="col">Contraseña</th>
+                    </tr>
+                </thead>
+                <tbody id="table">
+
+                </tbody>
+            </table>
+        </article>
+    </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script type="module" src="../js/main.js"></script>
+    <script type="module" src="../js/dashboard.js"></script>
+</body>
+</html>
